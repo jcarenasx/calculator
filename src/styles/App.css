@@ -1,0 +1,21 @@
+/* styles/App.css */
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left {
+  text-align: left;
+  padding-right: 10%;
+}
+
+.right {
+  text-align: right;
+  padding-left: 10%;
+}
